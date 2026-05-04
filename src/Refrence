@@ -1,0 +1,28 @@
+import React from "react"
+import Body from "./Components/Body"
+import Footer from "./Components/Footer"
+import Multimedia from "./Components/Multimedia/Mutimedia"
+import SrcMultimedia from "./Components/Multimedia/SrcMultimedia"
+import CssPlayGround from "./Components/LearrningStyles/CssPlayGround"
+import DProps from "./Components/Properties/DProps"
+import DProps2 from "./Components/Properties/DProps2"
+
+import "./Styles/Main.css"
+function App() {
+  return (
+    <React.Fragment>
+      <CssPlayGround/>
+      <Body />
+      <Multimedia />
+      <SrcMultimedia />
+      <DProps textContent1={"using props"} summary={"i used destructured props"} header1={"Welcome to a world of props"} />
+      
+      <DProps textContent1={"using Amala"} summary={"amala and ewedu"} header1={"Welcome to Amala  Joint"} />
+      
+      <DProps2 image1={"/Assets/Image/car.jpg"} image2={"/Assets/Image/calender.jpg"}/>
+      <Footer/>
+    </React.Fragment>
+  )
+}
+
+export default App

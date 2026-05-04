@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: beige;
+  color: black;
+}
+
+.header {
+  background-color: bisque;
+  color: green;
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+  padding-bottom: 35px;
+  width: 100%;
+}
+
+.navLinks .links {
+  text-decoration: none;
+}
+
+.navLinks .links:hover {
+  color: rgba(149, 144, 144, 0.989);
+}
